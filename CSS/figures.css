@@ -69,7 +69,7 @@ nav{
 .container-main {
     margin: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     font-family: 'Courier New', Courier, monospace;  
     background-color: var(--dark-sea-green);
     border-radius: 20px;
@@ -110,8 +110,8 @@ main {
 
 }
 main section {
-    width: 240px;
-    height: 400px;
+    width: 280px;
+    height: 480px;
     margin-bottom: 10px;
     border: 20px 10px;
     background-color: var(--lavender);
@@ -161,6 +161,18 @@ main section form button {
     font-weight: bold;
     margin-top: 10px;
     cursor: pointer;
+    color: var(--black);
+}
+.reset-button{
+    width: 100px;
+    height: 27px;
+}
+.reset-button:hover{
+    background-color: var(--light-yelow);
+    color: var(--white);
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
 }
 main section form button:hover{
     background-color: var(--light-yelow);
@@ -172,10 +184,11 @@ main section form button:hover{
 main section form input{
     place-self: center;
     width: 180px;
-    border-radius: 5;
+    border-radius:18px;
     border-color: var(--white);
     text-align: center;
 }
+
 footer{
     margin: 20px;
     display: flex;
@@ -239,21 +252,30 @@ footer p a:hover{
         font-size: var(--sm);
     }    
     main section {
-        width: 120px;
-        height: 380px;
+        width: 190px;
+        height: 370px;
     }
     main section h4{
         font-size: var(--sm);
     }
     main section form label{
         width: auto;
-        font-size: auto;
+        font-size: 12px;
     }
     main section form button {
         place-self: center;
-        width: 90px;
-        height: 13px;
-        font-size: 6px;
+        width: 110px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .reset-button {
+        width: 50px;
+        height: 15px;
+    }
+    .reset-button:hover{
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
     }
     main section form button:hover{
         width: 110px;
@@ -262,6 +284,11 @@ footer p a:hover{
     }
     main section form input{
         width: 90px;
+        height: 15px;
+        font-size: 7px;
+    }
+    footer{
+        margin-top: 60px;
     }
     footer p{
         font-size: var(--sm);

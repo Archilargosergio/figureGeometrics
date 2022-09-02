@@ -37,10 +37,15 @@
         <img src="./icons/crop_square_FILL0_wght400_GRAD0_opsz48.png" alt="/">
         <h4>Square</h4>
         <form>
-          <label for="text-input-square">Find out the area or perimeter of a customized square</label>
+          <label for="text-input-square">
+            <br>Perimeter = S * 4
+            <br>
+            <br>Area= S * S
+          </label>
           <input type="number" placeholder="Square size measure" id="text-input-square">
           <button type="button" id="square-button-perimeter" onclick="perimeterSquare()">Calculate perimeter</button>
           <button type="button" id="square-button-area" onclick="areaSquare()">Calculate area</button>
+          <button type="reset" class="reset-button">Reset</button>
         </form>
 </section>
     
@@ -48,12 +53,17 @@
         <img src="./icons/change_history_FILL0_wght400_GRAD0_opsz48.png" alt="/">
         <h4>Triangle</h4>
         <form>
-          <label for="text-input-triangle">Find out the area or perimeter of a customized triangle</label>
+          <label for="text-input-triangle">
+            <br> Perimeter = S + S + S
+            <br>
+            <br> Area = (Base * Height)/2
+          </label>
           <input type="number" placeholder="Triangle size measure" id="text-input-sizeTriangle">
           <input type="number" placeholder="Triangle base measure" id="text-input-baseTriangle">
           <input type="number" placeholder="Triangle height measure" id="text-input-heightTriangle">
           <button type="button" id="triangle-button-perimeter" onclick="perimeterTriangle()">Calculate perimeter</button>
           <button type="button" id="triangle-button-area" onclick="areaTriangle()">Calculate area</button>
+          <button type="reset" class="reset-button">Reset</button>
         </form>
     </section>
     
@@ -61,10 +71,15 @@
         <img src="./icons/circle_FILL0_wght400_GRAD0_opsz48.png" alt="/">
         <h4>Circle</h4>
         <form>
-          <label for="text-input-circle">Find out the area or perimeter of a customized circle</label>
+          <label for="text-input-circle">
+            <br> Perimeter = π * (R/2)
+            <br>
+            <br> Area = π * R^2
+          </label>
           <input type="number" placeholder="Radius circle measure" id="text-input-circle" >
           <button type="button" id="circle-button-perimeter" onclick="perimeterCircle()">Calculate perimeter</button>
           <button type="button" id="circle-button-area" onclick="areaCircle()">Calculate area</button>
+          <button type="reset" class="reset-button">Reset</button>
         </form>
       </section>
      </main>

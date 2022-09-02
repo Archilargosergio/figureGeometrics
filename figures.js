@@ -13,7 +13,12 @@ function formulePerimeterSquare (size){
    const textSquare = document.getElementById("text-input-square");
    const finalTextSquare = textSquare.value;
    const perimeter = formulePerimeterSquare (finalTextSquare);
+   if(finalTextSquare === ""){
+      alert("Fill in the empty fields")
+    }
+    else{
    alert ("The square perimeter is " + perimeter + " cm");
+    }
  }
  // console.log("El perímetro del cuadrado es " + perímetroCuadrado + " cm");
  
@@ -27,7 +32,12 @@ function formulePerimeterSquare (size){
     const textSquare = document.getElementById("text-input-square");
     const finalTextSquare = textSquare.value;
     const area = formuleAreaSquare (finalTextSquare);
+    if(finalTextSquare === ""){
+      alert("Fill in the empty fields")
+    }
+    else{
     alert ("The square are is " + area + " cm^2");
+    }
   }
  // console.log("El área del cuadrado es " + áreaCuadrado + " cm^2");
  // console.groupEnd();
@@ -49,7 +59,12 @@ function formulePerimeterSquare (size){
     const textTriangle = document.getElementById("text-input-sizeTriangle");
     const finalTextTriangle = textTriangle.value;
     const area = formulePerimeterTriangle (finalTextTriangle, finalTextTriangle, finalTextTriangle);
+    if(finalTextTriangle === ""){
+      alert("Fill in the empty fields")
+    }
+    else{
     alert ("The triangle perimeter is " + area + " cm");
+    }
   }
  // console.log("El perímetro del triángulo es " + perímetroTriángulo + " cm");
  
@@ -68,7 +83,12 @@ function formulePerimeterSquare (size){
     const textTriangle = document.getElementById("text-input-heightTriangle");
     const finalTextHeightTriangle = textTriangle.value;
     const area = formuleAreaTriangle (finalTextBaseTriangle, finalTextHeightTriangle);
+    if(finalTextBaseTriangle === "" || finalTextHeightTriangle === ""){
+      alert("Fill in the empty fields")
+    }
+    else{
     alert ("The triangle area is " + area + " cm^2");
+    }
   }
  // console.log("El área del triángulo es " + áreaTriángulo + " cm^2");
  // console.groupEnd();
@@ -94,7 +114,12 @@ function formulePerimeterSquare (size){
     const textCircle = document.getElementById("text-input-circle");
     const finalTexCircle = textCircle.value;
     const area = formulePerimeterCírculo (finalTexCircle);
+    if(finalTexCircle === ""){
+      alert("Fill in the empty fields")
+    }
+    else{
     alert ("The circle perimeter is " + area + " cm");
+    }
   }
  // console.log("El perímetro del cìrculo es " + perímetroCírculo + " cm");
  
@@ -108,7 +133,12 @@ function formulePerimeterSquare (size){
     const textCircle = document.getElementById("text-input-circle");
     const finalTexCircle = textCircle.value;
     const area = formuleAreaCircle (finalTexCircle);
+    if(finalTexCircle === ""){
+      alert("Fill in the empty fields")
+    }
+    else{
     alert ("The circle are is " + area + " cm^2");
+    }
   }
  // console.log("El área del círculo es " + áreaCírculo + " cm^2");
  // console.groupEnd();
