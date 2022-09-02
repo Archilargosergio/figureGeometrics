@@ -218,6 +218,15 @@ footer p a:hover{
         width: auto;
         height: 100vh;
     }
+    .nav-general li a img{
+        width: 20px;
+        height: 20px;
+    }
+    .nav-vertical {
+        width: auto;
+        height: auto;
+        font-size: 10px;
+    }
     header h1{
         font-size: 30px;
         place-self: center;
@@ -254,11 +263,7 @@ footer p a:hover{
     main section form input{
         width: 90px;
     }
-    footer{
-        font-size: 10px;
-    }
-    footer img{
-        width: 15px;
-        height: 15px;
+    footer p{
+        font-size: var(--sm);
     }
 }
