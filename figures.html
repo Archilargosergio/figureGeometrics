@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;400;800&display=swap" rel="stylesheet">
+    <title>GEOMETRIC FIGURES | JS Practical Course in Platzi</title>
+    <link rel="stylesheet" href="./CSS/figures.css" type="text/css">
+</head>
+<body>
+    <nav>
+       <ul class="nav-general">
+        <li>
+            <a href="#"><img src="./icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu"></a>
+            <ul class="nav-vertical">
+                 <li><a href="">index</a></li>
+                 <li><a href="https://poetic-dolphin-faf4a6.netlify.app/">bankCalculator</a></li>
+                 <li><a href="">e-CommerceProject</a></li>
+             </ul> 
+        </li>
+       </ul> 
+    </nav>
+  <div class="container-main">
+    <header>
+       <h1 class="tittle"> 
+         <img class="initial-imagen" src="./icons/interests_FILL0_wght400_GRAD0_opsz48.png" alt="">
+          GEOMETRIC FIGURES
+       </h1>
+      
+      <p>First project in practical workshop JS</p>
+    </header>
+    <main class="section-container">
+    <section class="square-section">
+        <img src="./icons/crop_square_FILL0_wght400_GRAD0_opsz48.png" alt="/">
+        <h4>Square</h4>
+        <form>
+          <label for="text-input-square">Find out the area or perimeter of a customized square</label>
+          <input type="number" placeholder="Square size measure" id="text-input-square">
+          <button type="button" id="square-button-perimeter" onclick="perimeterSquare()">Calculate perimeter</button>
+          <button type="button" id="square-button-area" onclick="areaSquare()">Calculate area</button>
+        </form>
+</section>
+    
+    <section class="triangle-section">
+        <img src="./icons/change_history_FILL0_wght400_GRAD0_opsz48.png" alt="/">
+        <h4>Triangle</h4>
+        <form>
+          <label for="text-input-triangle">Find out the area or perimeter of a customized triangle</label>
+          <input type="number" placeholder="Triangle size measure" id="text-input-sizeTriangle">
+          <input type="number" placeholder="Triangle base measure" id="text-input-baseTriangle">
+          <input type="number" placeholder="Triangle height measure" id="text-input-heightTriangle">
+          <button type="button" id="triangle-button-perimeter" onclick="perimeterTriangle()">Calculate perimeter</button>
+          <button type="button" id="triangle-button-area" onclick="areaTriangle()">Calculate area</button>
+        </form>
+    </section>
+    
+    <section class="circle-section">
+        <img src="./icons/circle_FILL0_wght400_GRAD0_opsz48.png" alt="/">
+        <h4>Circle</h4>
+        <form>
+          <label for="text-input-circle">Find out the area or perimeter of a customized circle</label>
+          <input type="number" placeholder="Radius circle measure" id="text-input-circle" >
+          <button type="button" id="circle-button-perimeter" onclick="perimeterCircle()">Calculate perimeter</button>
+          <button type="button" id="circle-button-area" onclick="areaCircle()">Calculate area</button>
+        </form>
+      </section>
+     </main>
+     <footer>
+        <p> 
+            <img src="./icons/smart_toy_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            <span>Project made by Sergio Archila</span>  
+            <a href="https://www.linkedin.com/in/sergio-archila-largo-ab0b08177/">@Archilargosergio</a> </p>
+    </footer>
+  </div>
+  <script src="./figures.js"></script>
+</body>
+</html>
