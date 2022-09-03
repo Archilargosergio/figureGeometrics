@@ -196,7 +196,7 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 footer p{
     display: flex;
